@@ -120,13 +120,13 @@ li > label {
 li > input[type="text"] {
   width: 226px;
 }
-.delete-task
+.delete
 img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete-task
+.delete
 img:hover {
   transform: rotateZ(0);
 }
@@ -145,15 +145,13 @@ input[type=text] {
   display: none;
 }
 
-ul
-li
+
 .edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul
-li
+
 .edit-mode label {
   display: none;
 }
