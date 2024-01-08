@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.home-page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -119,12 +119,12 @@ li > label {
 li >    input[type="text"] {
   width: 226px
 }
-button.delete-task img {
+.delete-task img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete-task img:hover {
+.delete-task img:hover {
   transform: rotateZ(0);
 }
 
